@@ -10,13 +10,17 @@ body {
     font-size: 15px;
 	line-height: 1.5;
 	background-color: #f7f4e9;
+    display: block;
 	margin: 8px; 
 	padding: 1%;
 	}
 
-header-style {
+header {
     background-color: #EBA63F;
     font-size: 48px;
+    text-align: center;
+    margin:0;
+    padding: 10px
 }
 
 footer {
@@ -36,19 +40,20 @@ h3 {font-size: 24px}
 #mainHeading {
     font-weight: bold;
     color: red;
-    background-color: #f7f4e9;
-    justify-self: center;
-    font-size: 40px;
 }
 
-funParagraph {
-    color: green
+#funParagraph {
+    color: green;
 }
 
 section {
     display: block;
-    justify-content: center;
     background-color: #EBA63F;
     padding: 5%;
     margin: 5%;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
 }
