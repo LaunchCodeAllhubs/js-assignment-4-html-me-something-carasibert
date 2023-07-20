@@ -37,12 +37,12 @@ h2 {font-size: 30px;}
 
 h3 {font-size: 24px}
 
-mainHeading {
+#mainHeading {
     font-weight: bold;
     color: red;
 }
 
-funParagraph {
+#funParagraph {
     color: green;
 }
 
