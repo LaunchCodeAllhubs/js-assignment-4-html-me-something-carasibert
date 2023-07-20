@@ -5,30 +5,50 @@ html {
     padding: 1px;
 }
 
-html, body { 
+body { 
 	font-family: Verdana, sans-serif;
     font-size: 15px;
 	line-height: 1.5;
-	color: #000000; 
-	background-color: transparent;
+	background-color: #f7f4e9;
 	margin: 8px; 
 	padding: 1%;
 	}
 
-header, main, footer {
+header-style {
+    background-color: #EBA63F;
+    font-size: 48px;
+}
+
+footer {
     display: block;
-    background-color: lightgoldenrodyellow;
+    background-color: #EBA63F;
     font-size: 100%;
 }
 
 h1 {
-    font-size: 36px
+    font-size: 36px;
 }
 
-h2 {font-size: 30px}
+h2 {font-size: 30px;}
 
 h3 {font-size: 24px}
 
 #mainHeading {
-    font-weight: bold
+    font-weight: bold;
+    color: red;
+    background-color: #f7f4e9;
+    justify-self: center;
+    font-size: 40px;
+}
+
+funParagraph {
+    color: green
+}
+
+section {
+    display: block;
+    justify-content: center;
+    background-color: #EBA63F;
+    padding: 5%;
+    margin: 5%;
 }
